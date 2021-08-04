@@ -5,7 +5,7 @@
 
    <body><?php
 
-$link = mysqli_connect("localhost","darphalc_paddy","virendrapadwal","darphalc_paddy");
+$link = mysqli_connect("localhost","","","");
 if( $link === false ){
 
            die("could not connect the error".mysqli_connect_error());
